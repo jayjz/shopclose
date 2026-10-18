@@ -1,0 +1,9 @@
+
+# ShopClose project-specific Codex configuration.
+# Loaded by Codex only when this repository is trusted.
+
+# Require approval when Codex needs to step outside permitted operations.
+approval_policy = "on-request"
+
+# Allow workspace edits while restricting access outside the workspace.
+sandbox_mode = "workspace-write"

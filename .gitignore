@@ -1,6 +1,64 @@
+
+# Python environments
 .venv/
-.env
+venv/
+env/
 __pycache__/
+*.py[cod]
+*.egg-info/
 .pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.nox/
+.coverage
+.coverage.*
+htmlcov/
+
+# Local secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+
+# Local databases
 *.db
+*.sqlite
 *.sqlite3
+*.db-journal
+*.sqlite3-journal
+*.db-wal
+*.db-shm
+*.sqlite3-wal
+*.sqlite3-shm
+
+# Customer data and private operational artifacts
+data/private/
+data/customer/
+data/exports/
+artifacts/private/
+logs/
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*.log
+
+# Build artifacts
+dist/
+build/
+node_modules/
+.next/
+
+# IDE and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Keep synthetic test fixtures under version control.
+# Keep .agents/skills and .codex/config.toml tracked.
