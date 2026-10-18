@@ -1,0 +1,8 @@
+﻿{
+  "job_id": "HVAC-1042",
+  "technician_notes": "Replaced capacitor and added 2 lbs R-410A refrigerant.",
+  "invoice_items": [
+    "Diagnostic",
+    "Capacitor replacement"
+  ]
+}

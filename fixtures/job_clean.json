@@ -1,0 +1,8 @@
+﻿{
+  "job_id": "HVAC-1043",
+  "technician_notes": "Replaced failed capacitor. Tested system.",
+  "invoice_items": [
+    "Diagnostic",
+    "Capacitor replacement"
+  ]
+}
